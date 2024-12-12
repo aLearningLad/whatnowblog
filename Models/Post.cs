@@ -10,10 +10,13 @@ namespace whatnowblog.Models
         [Required]
         public string Title { get;set; }
 
+        [Required]
         public string SubHeading { get; set; }
 
+        [Required]
         public string PreviewBlurb { get; set; }
 
+        [Required]
         public string BlogBody { get; set; }    
 
 
